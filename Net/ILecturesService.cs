@@ -1,12 +1,12 @@
-﻿using Sabio.Models.Domain;
-using Sabio.Models.Requests;
+﻿using MoneFi.Models.Domain;
+using MoneFi.Models.Requests;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Interfaces
+namespace MoneFi.Models.Interfaces
 {
     public interface ILecturesService
     {
