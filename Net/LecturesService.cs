@@ -1,17 +1,17 @@
-﻿using Sabio.Data.Providers;
+﻿using MoneFi.Data.Providers;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
-using Sabio.Data;
-using Sabio.Models.Interfaces;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests;
-using Sabio.Models;
-using Sabio.Services.Interfaces;
+using MoneFi.Data;
+using MoneFi.Models.Interfaces;
+using MoneFi.Models.Domain;
+using MoneFi.Models.Requests;
+using MoneFi.Models;
+using MoneFi.Services.Interfaces;
 
 
-namespace Sabio.Services
+namespace MoneFi.Services
 {
     public class LecturesService : ILecturesService
     {
