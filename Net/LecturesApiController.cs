@@ -1,21 +1,21 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Models;
-using Sabio.Services;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using MoneFi.Models;
+using MoneFi.Services;
+using MoneFi.Web.Controllers;
+using MoneFi.Web.Models.Responses;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System;
-using Sabio.Models.Interfaces;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests;
-using Sabio.Models.Domain.LoanApplications;
-using Sabio.Services.Interfaces;
+using MoneFi.Models.Interfaces;
+using MoneFi.Models.Domain;
+using MoneFi.Models.Requests;
+using MoneFi.Models.Domain.LoanApplications;
+using MoneFi.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Sabio.Web.Api.Controllers
+namespace MoneFi.Web.Api.Controllers
 {
     [Route("api/lectures")]
     [ApiController]
