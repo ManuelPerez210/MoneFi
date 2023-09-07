@@ -1,0 +1,62 @@
+.cardFormat {
+    width: 18rem;
+  }
+  
+  .lectureCard {
+    width: 70px;
+    max-width: 50px;
+    justify-content: center;
+  }
+  
+  .searchFieldButton {
+    width: 20%;
+    max-width: 30%;
+  }
+  
+  .searchLectureButton {
+    width: 10%;
+    margin-right: 5%;
+  }
+
+  .lectureImg {
+    object-position: 50% 50%;
+    padding: 10px 10px;
+    justify-content: center;
+    min-width: 260px;
+    min-height: 200px;
+    max-height: 200px;
+  }
+
+  .refreshIcon {
+    margin-left: 10%;
+    text-align: center;
+  }
+  
+  .paginationMain {
+    text-align: center;
+  }
+
+  .addButton {
+    margin-left: 35%;
+  }
+
+  .custom-button {
+    margin-top: 10px;
+    margin-left: 3%;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    inline-size: auto;
+    border: none;
+    justify-content: center;
+  }
+
+  .optionStyle {
+    color: black;
+    background-color: white;
+    opacity: 1;
+    font-weight: normal;
+    z-index: 1;
+    text-shadow: none;
+  }
