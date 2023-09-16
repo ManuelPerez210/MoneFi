@@ -6,8 +6,8 @@ As a software engineer, my responsibility was to implement the lectures page for
 Features
 
 - Lectures page of the education hub
-
 - Appointment settings
+- Blog features
 
 Tasks
 
@@ -15,6 +15,9 @@ Created a webpage for course lectures in which users and admins can view a pagin
 Admin and users can filter through lectures with a search bar. 
 Used react to create webpage in which admin and users can view lectures and get lecture details.
 Ensured the responsiveness, performance, and security of the lectures page.
+Changed a proc in the back end to change the order of the incoming appointments to be from newest to oldest.
+Inserted a placeholder image for blogs to not show broken image when creating a new blog. 
+Set up a sweet alert to display a warning when creating a blog without a cover image to let admin know that a placeholder image will be displaayed until ready to insert a cover image for blog.
 Conducted thorough testing and debugging to identify and resolve any issues or bugs.
 Utilized best practices and followed coding standards to maintain high-quality code.
 Implemented security measures to only allow admins to be able to create, update and delete lectures.
