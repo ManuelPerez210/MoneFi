@@ -21,7 +21,7 @@ Changed a proc in the back end to change the order of the incoming appointments 
 Inserted a placeholder image for blogs to not show broken image when creating a new blog. 
 Set up a sweet alert to display a warning when creating a blog without a cover image to let admin know that a placeholder image will be displayed until ready to insert a cover image for blog.
 Conducted testing and troubleshooting to fix the course details page from breaking when clicking on the Navbar. Admin/User can now click on the Navbar and not worry about page breaking. Also noticed propType issues in console and took care of those. Modified a couple of files to fix the issues.
-Created data base for eBooks. This includes eBooks table and stored procedures. Stored procedures include insert, update, soft delete, get all paginated and get by Id. 
+Created database for eBooks. This includes eBooks table and stored procedures. Stored procedures include insert, update, soft delete, get all paginated and get by Id. 
 Conducted thorough testing and debugging to identify and resolve any issues or bugs.
 Utilized best practices and followed coding standards to maintain high-quality code.
 Implemented security measures to only allow admins to be able to create, update and delete lectures.
