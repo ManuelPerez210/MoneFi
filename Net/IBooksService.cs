@@ -1,14 +1,14 @@
-﻿using Sabio.Models.Domain;
-using Sabio.Models.Requests;
-using Sabio.Models;
+﻿using MoneFi.Models.Domain;
+using MoneFi.Models.Requests;
+using MoneFi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Sabio.Models.Requests.Books;
+using MoneFi.Models.Requests.Books;
 
-namespace Sabio.Services.Interfaces
+namespace MoneFi.Services.Interfaces
 {
     public interface IBooksService
     {
