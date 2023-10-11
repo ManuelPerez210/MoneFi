@@ -1,8 +1,8 @@
-﻿using Sabio.Data.Providers;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests;
-using Sabio.Models;
-using Sabio.Services.Interfaces;
+﻿using MoneFi.Data.Providers;
+using MoneFi.Models.Domain;
+using MoneFi.Models.Requests;
+using MoneFi.Models;
+using MoneFi.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -10,10 +10,10 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Sabio.Data;
-using Sabio.Models.Requests.Books;
+using MoneFi.Data;
+using MoneFi.Models.Requests.Books;
 
-namespace Sabio.Services
+namespace MoneFi.Services
 {
     public class BooksService : IBooksService
     {
