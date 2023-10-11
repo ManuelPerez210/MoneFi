@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Requests.Books
+namespace MoneFi.Models.Requests.Books
 {
     public class BookAddRequest
     {
